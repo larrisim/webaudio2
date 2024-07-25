@@ -1,5 +1,5 @@
 function preload(){
-    music = loadSound("M5-2.wav");
+    music = loadSound("sample.wav");
     playing = false;
     music.onended( () => { playing = false; 
     document.getElementById('audio').innerText = "Play"; a = 0 })
